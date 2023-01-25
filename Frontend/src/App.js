@@ -1,11 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Navigatbar from "../src/Pages/Shared/NavigatBar/NavigatBar";
+import BrowserCatagories from "../src/Pages/BrowserCatagories/BrowserCatagories";
 
 function App() {
   return (
     <div className="App">
-      <Navigatbar />
+      <BrowserCatagories />
     </div>
   );
 }
