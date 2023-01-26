@@ -57,7 +57,7 @@
   opacity: 0;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 44%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
@@ -92,32 +92,38 @@
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 .card-text {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 .card-title {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
 }
-.card-img-top {
+.form-check-input {
+  /* margin-top: -100px; */
 }
+
 .check-inputs {
-  /* margin-top: -40px; */
-  margin-left: -29px;
+  margin-top: -120px;
+  margin-left: -25px;
+}
+.card-img-top {
+  /* background-color: rgb(248, 248, 248); */
 }
 .card-body {
-  margin-top: -140px;
+  /* margin-top: -100px; */
+}
+.Add-cart-button-div {
+  margin-left: 37px;
 }
 .Add-cart-button {
-  border: 1px solid gray;
+  border: 1px solid rgb(236, 236, 236);
   border-radius: 10px;
   padding: 0% 20%;
   margin-top: 30px;
 
   font-family: "Courier New", Courier, monospace;
   font-weight: 600;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .bG-check-input {
@@ -169,5 +175,9 @@
     margin-left: -70px;
 
     /* margin-right: 20px; */
+  }
+
+  .Add-cart-button-div {
+    margin-left: 40px;
   }
 }

@@ -14,12 +14,9 @@ import img4 from "../images/img-Women-sandle.jpg";
 import img5 from "../images/img-Tshirt2.jpg";
 import img6 from "../images/img-neckless.jpg";
 import img7 from "../images/img-Women-Dress2.jpg";
-import img8 from "../images/white Tshirt.jpg";
+import img8 from "../images/white Tshirt.png";
 import img9 from "../images/img-panjabi-white.jpg";
 import img10 from "../images/img-panjabi-pink.jpg";
-import img11 from "../images/white Tshirt.jpg";
-import img12 from "../images/white Tshirt.jpg";
-
 function Home() {
   const settings = {
     infinite: true,
@@ -782,7 +779,9 @@ function Home() {
                     Premium Quality Solid T-Shirt For Men
                   </p>
                   <h5 className="card-title">Tk. 350</h5>
-                  <button className="Add-cart-button">Add To card</button>
+                  <div className="Add-cart-button-div">
+                    <button className="Add-cart-button">Add To card</button>
+                  </div>
                 </div>
               </div>
 
@@ -835,7 +834,9 @@ function Home() {
                     Premium Quality Solid T-Shirt For Men
                   </p>
                   <h5 className="card-title">Tk. 350</h5>
-                  <button className="Add-cart-button">Add To card</button>
+                  <div className="Add-cart-button-div">
+                    <button className="Add-cart-button">Add To card</button>
+                  </div>
                 </div>
               </div>
               <div className="card">
@@ -887,7 +888,9 @@ function Home() {
                     Premium Quality Solid T-Shirt For Men
                   </p>
                   <h5 className="card-title">Tk. 350</h5>
-                  <button className="Add-cart-button">Add To card</button>
+                  <div className="Add-cart-button-div">
+                    <button className="Add-cart-button">Add To card</button>
+                  </div>
                 </div>
               </div>
               <div className="card">
@@ -939,7 +942,9 @@ function Home() {
                     Premium Quality Solid T-Shirt For Men
                   </p>
                   <h5 className="card-title">Tk. 350</h5>
-                  <button className="Add-cart-button">Add To card</button>
+                  <div className="Add-cart-button-div">
+                    <button className="Add-cart-button">Add To card</button>
+                  </div>
                 </div>
               </div>
               <div className="card">
@@ -991,7 +996,9 @@ function Home() {
                     Premium Quality Solid T-Shirt For Men
                   </p>
                   <h5 className="card-title">Tk. 350</h5>
-                  <button className="Add-cart-button">Add To card</button>
+                  <div className="Add-cart-button-div">
+                    <button className="Add-cart-button">Add To card</button>
+                  </div>
                 </div>
               </div>
               <div className="card">
@@ -1043,7 +1050,9 @@ function Home() {
                     Premium Quality Solid T-Shirt For Men
                   </p>
                   <h5 className="card-title">Tk. 350</h5>
-                  <button className="Add-cart-button">Add To card</button>
+                  <div className="Add-cart-button-div">
+                    <button className="Add-cart-button">Add To card</button>
+                  </div>
                 </div>
               </div>
               <div className="card">
@@ -1095,7 +1104,9 @@ function Home() {
                     Premium Quality Solid T-Shirt For Men
                   </p>
                   <h5 className="card-title">Tk. 350</h5>
-                  <button className="Add-cart-button">Add To card</button>
+                  <div className="Add-cart-button-div">
+                    <button className="Add-cart-button">Add To card</button>
+                  </div>
                 </div>
               </div>
               <div className="card">
@@ -1147,7 +1158,9 @@ function Home() {
                     Premium Quality Solid T-Shirt For Men
                   </p>
                   <h5 className="card-title">Tk. 350</h5>
-                  <button className="Add-cart-button">Add To card</button>
+                  <div className="Add-cart-button-div">
+                    <button className="Add-cart-button">Add To card</button>
+                  </div>
                 </div>
               </div>
             </Slider>
